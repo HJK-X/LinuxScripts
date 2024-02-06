@@ -7,17 +7,17 @@ Arch Linux installation guide.
 
 
 basicsetup.sh: basic dev packages + custom configs
-  i3
-  kitty
-  tmux
-  neovim
-  firefox
+  1. i3
+  2. kitty
+  3. tmux
+  4. neovim
+  5. firefox
 
 additional.sh: additional packages
-  bitwarden
-  docker
-  vscode
-  yubikey
+  1. bitwarden
+  2. docker
+  3. vscode
+  4. yubikey
   
   
 cs.sh: cheat sheet for keyboard shortcuts
