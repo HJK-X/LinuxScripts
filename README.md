@@ -8,7 +8,7 @@ Arch Linux installation guide.
 <br>
 
 basicsetup.sh: basic dev packages + custom configs
-```bash
+```
   i3
   kitty
   tmux
@@ -17,7 +17,7 @@ basicsetup.sh: basic dev packages + custom configs
 ```
 
 additional.sh: additional packages
-```bash
+```
   bitwarden
   docker
   vscode
