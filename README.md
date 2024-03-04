@@ -2,7 +2,7 @@ Arch Linux installation guide.
 
 1. Create boot drive: https://wiki.archlinux.org/title/Installation_guide
 2. ```archinstall```
-3. ```git clone https://github.com/HJK-X/LinuxScripts.git
+3. ```git clone https://github.com/HJK-X/LinuxScripts.git```
 4. Run basicsetup.sh
 
 <br>
