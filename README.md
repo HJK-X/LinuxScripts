@@ -1,10 +1,10 @@
 Arch Linux installation guide.
 
 1. Create boot drive: https://wiki.archlinux.org/title/Installation_guide
-2. Download this repo to the drive.
-3. Plug in drive and install Arch.
-4. Connect to internet
-5. Run basicsetup.sh
+3. Download this repo to the drive.
+4. ```archinstall```
+6. Connect to internet
+7. Run basicsetup.sh
 
 <br>
 
