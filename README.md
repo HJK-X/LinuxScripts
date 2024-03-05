@@ -5,11 +5,11 @@ Arch Linux installation guide.
 3. Connect to internet: for WiFi see below
 4. ```git clone https://github.com/HJK-X/LinuxScripts.git```
 5. ```archinstall --config ./LinuxScripts/config.json```
-> Disk Configuration -> Use a best-effort default partition layout -> [DRIVE] -> ext4 -> no
-> Disk Encryption -> Encryption password -> [password] -> Partitions -> [created partition]
-> Root Password -> [password]
-> User Account -> Add a user -> [username] -> [password] -> yes (default) -> Confirm and exit
-> Install
+> Disk Configuration -> Use a best-effort default partition layout -> [DRIVE] -> ext4 -> no  
+> Disk Encryption -> Encryption password -> [password] -> Partitions -> [created partition]  
+> Root Password -> [password]  
+> User Account -> Add a user -> [username] -> [password] -> yes (default) -> Confirm and exit  
+> Install  
 6. ```./LinuxScripts/basicsetup.sh```
 
 
