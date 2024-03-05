@@ -9,8 +9,8 @@ Arch Linux installation guide.
 > Disk Encryption -> Encryption password -> [password] -> Partitions -> [created partition]  
 > Root Password -> [password]  
 > User Account -> Add a user -> [username] -> [password] -> yes (default) -> Confirm and exit  
-> Install
-> no
+> Install   
+> no  
 6. ```./LinuxScripts/basicsetup.sh```
 
 
