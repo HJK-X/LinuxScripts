@@ -1,8 +1,10 @@
 #!/bin/bash
 
+sudo pacman -Sy i3 kitty dmenu tmux github-cli firefox
+
 # Copy config files
 cp -av ./home/. ~
-cp -av ./etc/. /etc
+sudo cp -av ./etc/. /etc
 
 # Clear unnecessary files
-rm -rf /etc/i3/
+sudo rm -rf /etc/i3/
