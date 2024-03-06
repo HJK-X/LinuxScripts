@@ -234,7 +234,16 @@
     "packages": [
         "git",
         "neovim",
-	"less"
+	"less",
+	"htop",
+	"i3",
+	"xorg",
+	"xorg-xinit",
+	"dmenu",
+	"kitty",
+	"firefox",
+	"github-cli",
+	"xdg-utils"
     ],
     "parallel downloads": 0,
     "profile_config": {

@@ -7,5 +7,7 @@
 [init]
 	defaultBranch = main
 [user]
-	email = juskim88@gmail.com
+	email = 34551787+HJK-X@users.noreply.github.com
 	name = Justin Kim
+[pull]
+	rebase = true
