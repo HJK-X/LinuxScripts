@@ -22,27 +22,13 @@ WiFi connection with iwd:
 5.  ```station [device] get-networks```
 6.  ```station [device] connect [SSID]```
 
-
-Additional installed packages:
-xorg xorg-xinit i3 kitty dmenu tmux neovim git github-cli firefox htop less 
-
 <br>
 
-basicsetup.sh: basic packages' custom configs
-```
-  i3
-  tmux
-  neovim
-  firefox
-```
+basicsetup.sh: custom configs for important packages  
 
-additional.sh: additional packages I might want
-```
-  bitwarden
-  docker
-  vscode
-  yubikey
-```
+  
+
+
 cs.sh: cheat sheet for keyboard shortcuts
 
 For keyboard remapping:
