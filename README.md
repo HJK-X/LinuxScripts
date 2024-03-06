@@ -23,20 +23,20 @@ WiFi connection with iwd:
 6.  ```station [device] connect [SSID]```
 
 
-
+Additional installed packages:
+xorg xorg-xinit i3 kitty dmenu tmux neovim git github-cli firefox htop less 
 
 <br>
 
-basicsetup.sh: basic dev packages + custom configs
+basicsetup.sh: basic packages' custom configs
 ```
   i3
-  kitty
   tmux
   neovim
   firefox
 ```
 
-additional.sh: additional packages
+additional.sh: additional packages I might want
 ```
   bitwarden
   docker
