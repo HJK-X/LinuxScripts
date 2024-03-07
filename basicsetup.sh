@@ -8,4 +8,3 @@ sudo cp -av ./etc/. /etc
 sudo rm -rf /etc/i3/
 
 
-gh auth login
