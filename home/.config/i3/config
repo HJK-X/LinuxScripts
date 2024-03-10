@@ -71,7 +71,7 @@ set $ws8 "8"
 set $ws9 "9"
 
 # switch to workspace
-bindsym $mod+0 workspace $ws0
+bindsym $mod+0 exec ~/.config/i3/work0.sh
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
@@ -125,9 +125,32 @@ bindsym $mod+r mode "resize"
 # lock screen
 bindsym Control+$mod+q exec "i3lock"
 
+
+# Styling
+
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango:DejaVu Sans Mono 8
+
+set $black	#1D212A
+set $red	#FC8993
+set $green	#89E19C
+set $yellow	#FBDF90
+set $blue	#A7BDFB
+set $magenta	#D990CD
+set $cyan	#81D4EE
+set $white	#E3E3E3
+
+
+# class                 border		backgr.		text		indicator 	child_border
+client.focused          $blue 		$black		$white		$blue		$blue
+client.focused_inactive $cyan 		$black		$white		$cyan		$cyan
+client.unfocused        $magenta 	$black		$white		$magenta	$magenta
+client.urgent           $red 		$black		$white		$red		$red
+client.placeholder      $yellow		$black		$white		$yellow		$yellow
+
+client.background       $black
 
 # Start XDG autostart .desktop files using dex. See also
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -137,4 +160,10 @@ bar {
         position top
 }
 
-workspace $ws0 output HDMI-1-1 eDP-1
+# setup workspace 0
+workspace $ws0 output nonprimary primary 
+
+
+
+# border 
+default_border none
