@@ -1,13 +1,16 @@
 #Additional installed packages:  
 
 #WM:
-pacman -S --needed xorg xorg-xinit xdg-utils i3 kitty dmenu xautolock
+pacman -S --needed wpa_supplicant xorg xorg-xinit xdg-utils i3 kitty dmenu xautolock
 
-#Dev:
-pacman -S --needed tmux neovim git github-cli  
+#Dev Env:
+pacman -S --needed tmux neovim git github-cli 
+
+#Code:
+pacman -S --needed nodejs npm
 
 #Browser:
-pacman -S --needed firefox  
+pacman -S --needed firefox 
 
 #CLI:
 pacman -S --needed htop less  
