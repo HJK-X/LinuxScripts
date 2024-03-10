@@ -233,17 +233,7 @@
     "offline": false,
     "packages": [
         "git",
-        "neovim",
-	"less",
-	"htop",
-	"i3",
-	"xorg",
-	"xorg-xinit",
-	"dmenu",
-	"kitty",
-	"firefox",
-	"github-cli",
-	"xdg-utils"
+        "neovim"
     ],
     "parallel downloads": 0,
     "profile_config": {
