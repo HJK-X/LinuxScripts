@@ -160,10 +160,6 @@ bar {
         position top
 }
 
-# setup workspace 0
-workspace $ws0 output nonprimary primary 
 
-
-
-# border 
-default_border none
+# border
+default_border pixel 0
