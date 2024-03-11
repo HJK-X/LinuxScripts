@@ -1,9 +1,14 @@
 #!/bin/bash
 
+sudo whoami
+
+./packages.sh
+
 # Copy config files
-sudo cp -av ./etc/. /etc
+chown -R root:root ./etc
+cp -av ./etc/. /etc
 
 # Clear unnecessary files
-sudo rm -rf /etc/i3/
-
+rm -rf /etc/i3/
+rm -rf /var/lib/iwd
 

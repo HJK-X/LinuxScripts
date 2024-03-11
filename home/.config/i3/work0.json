@@ -1,0 +1,48 @@
+{
+    "layout": "splith",
+    "percent": 0.4,
+    "border": "pixel",
+    "current_border_width": 3,
+    "type": "con",
+    "nodes": [
+        {
+            "name": "Mozilla Firefox",
+            "percent": 0.5,
+            "type": "con",
+            "swallows": [
+                {
+                    "class": "^firefox$"
+                }
+            ]
+        },
+        {
+            "layout": "splitv",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "name": "Clock",
+                    "percent": 0.5,
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "class": "^kitty$",
+                            "title": "^tty\\-clock$"
+                        }
+                    ]
+                },
+                {
+                    "name": "cava",
+                    "percent": 0.5,
+                    "type": "con",
+                    "swallows": [
+                        {
+                            "class": "^kitty$",
+                            "title": "^cava$"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

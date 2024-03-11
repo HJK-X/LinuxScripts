@@ -60,9 +60,9 @@ bindsym $mod+f fullscreen toggle
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws0 "0"
-set $ws1 "Terminal"
-set $ws2 "Browser"
-set $ws3 "Editor"
+set $ws1 "1:Terminal"
+set $ws2 "2:Browser"
+set $ws3 "3:Editor"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
@@ -158,8 +158,19 @@ client.background       $black
 bar {
         status_command i3status
         position top
+        strip_workspace_numbers yes
 }
 
-
 # border
-default_border pixel 0
+default_border pixel 1
+
+
+# workspaces
+workspace $ws0 output nonprimary primary
+workspace $ws0 gaps inner 20px
+workspace $ws0 gaps outer 15px
+workspace $ws1 output primary
+workspace $ws2 output primary
+workspace $ws3 output primary
+
+exec ~/.config/i3/layout.sh
