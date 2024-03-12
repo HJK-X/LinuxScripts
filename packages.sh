@@ -14,12 +14,10 @@ pacman -S --needed nodejs npm gdb jre-openjdk
 pacman -S --needed firefox torbrowser-launcher openvpn
 
 #Programs:
-pacman -S --needed htop less networkmanger network-manager-applet arandr lsof libnotify unzip bitwarden
+pacman -S --needed htop less networkmanger network-manager-applet arandr lsof libnotify unzip bitwarden wget
 
 #Sec Programs:
 pacman -S --needed nmap termshark
-
-
 
 
 #Additional remove packages

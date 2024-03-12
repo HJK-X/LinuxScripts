@@ -12,3 +12,5 @@ cp -av ./etc/. /etc
 rm -rf /etc/i3/
 rm -rf /var/lib/iwd
 
+# Start any system startup programs
+systemctl start NetworkManager.service
