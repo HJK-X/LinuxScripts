@@ -1,0 +1,25 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "type": "con",
+    "geometry": {
+       "height": 342,
+       "width": 943,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "tmux ",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^kitty$",
+       // "instance": "^kitty$",
+       // "machine": "^hjk$",
+       // "title": "^tmux\\ $"
+       }
+    ]
+}
+

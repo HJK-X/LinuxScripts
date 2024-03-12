@@ -2,7 +2,7 @@
     "layout": "splith",
     "percent": 0.4,
     "border": "pixel",
-    "current_border_width": 3,
+    "current_border_width": 10,
     "type": "con",
     "nodes": [
         {

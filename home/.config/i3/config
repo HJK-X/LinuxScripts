@@ -159,6 +159,7 @@ bar {
         status_command i3status
         position top
         strip_workspace_numbers yes
+	font pango:DejaVu Sans Mono 10
 }
 
 # border
@@ -169,6 +170,8 @@ default_border pixel 1
 workspace $ws0 output nonprimary primary
 workspace $ws0 gaps inner 20px
 workspace $ws0 gaps outer 15px
+for_window [workspace=$ws0] border pixel 5
+
 workspace $ws1 output primary
 workspace $ws2 output primary
 workspace $ws3 output primary

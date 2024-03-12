@@ -8,7 +8,8 @@ yay -S tty-clock
 yay -S android-studio
 yay -S proton-vpn-gtk-app
 yay -S cava
-git clone https://aur.archlinux.org/visual-studio-code-bin.git
+yay -S firebase-tools
+it clone https://aur.archlinux.org/visual-studio-code-bin.git
 
 
 
