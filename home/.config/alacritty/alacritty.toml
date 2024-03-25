@@ -1,0 +1,29 @@
+[font]
+size = 12.0
+
+
+[colors.primary]
+background = '#000000'
+foreground = '$white'
+
+# Normal colors
+[colors.normal]
+black   = '$black'
+red     = '$red'
+green   = '$green'
+yellow  = '$yellow'
+blue    = '$blue'
+magenta = '$magenta'
+cyan    = '$cyan'
+white   = '$white'
+
+# Bright colors
+[colors.bright]
+black   = '#709080'
+red     = '#DCA3A3'
+green   = '#72D5A3'
+yellow  = '#F0DFAF'
+blue    = '#94BFF3'
+magenta = '#EC93D3'
+cyan    = '#93E0E3'
+white   = '#FFFFFF'

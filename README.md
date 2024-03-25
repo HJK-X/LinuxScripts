@@ -32,4 +32,12 @@ basicsetup.sh: custom configs for important packages
 cs.sh: cheat sheet for keyboard shortcuts
 
 For keyboard remapping:
-  
+
+
+
+For VPN:  
+Using Wireguard with ProtonVPN service  
+connect with:  
+```sudo wg-quick up /etc/wireguard/[file.conf]```
+disconnect with:
+```sudo wg-quick down /etc/wireguard/[file.conf]```

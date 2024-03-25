@@ -9,8 +9,8 @@ then
 else
     i3-msg 'workspace "0" output nonprimary primary'
     i3-msg 'workspace "0"; append_layout ~/.config/i3/work0.json'
-    i3-msg 'exec kitty -- cava'
-    i3-msg 'exec kitty -- tty-clock -c' 
+    i3-msg 'exec alacritty -e cava'
+    i3-msg 'exec alacritty -T clock -e tty-clock -c -C 6' 
     i3-msg 'exec firefox'
 fi
 

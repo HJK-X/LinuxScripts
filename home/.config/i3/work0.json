@@ -26,8 +26,8 @@
                     "type": "con",
                     "swallows": [
                         {
-                            "class": "^kitty$",
-                            "title": "^tty\\-clock$"
+                            "class": "^Alacritty$",
+                            "title": "^clock$"
                         }
                     ]
                 },
@@ -37,7 +37,7 @@
                     "type": "con",
                     "swallows": [
                         {
-                            "class": "^kitty$",
+                            "class": "^Alacritty$",
                             "title": "^cava$"
                         }
                     ]

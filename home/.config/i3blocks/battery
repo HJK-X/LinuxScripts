@@ -1,0 +1,32 @@
+#!/bin/bash
+
+charge_now_file="/sys/class/power_supply/BAT1/charge_now"
+
+charge_full_file="/sys/class/power_supply/BAT1/charge_full"
+
+charge_status="/sys/class/power_supply/BAT1/status"
+
+charge_now=$(cat "$charge_now_file")
+charge_full=$(cat "$charge_full_file")
+charge_status=$(cat "$charge_status")
+
+battery_percentage=$((charge_now * 100 / charge_full))
+
+if [ "$charge_status" = "Charging" ]; then
+    status_abbr="CHR"
+elif [ "$charge_status" = "Discharging" ]; then
+    status_abbr="DIS"
+else
+    status_abbr="FULL"
+fi
+
+echo "BAT $battery_percentage% $status_abbr"
+echo "BAT $battery_percentage%"
+
+if [ "$battery_percentage" -gt "80" ]; then
+    echo "$green"
+elif [ "$battery_percentage" -gt "40" ]; then
+    echo "$yellow"
+else 
+    echo "$red"
+fi
