@@ -9,5 +9,5 @@
 [user]
 	email = 34551787+HJK-X@users.noreply.github.com
 	name = Justin Kim
-[pull]
-	rebase = true
+[core]
+	editor = nvim

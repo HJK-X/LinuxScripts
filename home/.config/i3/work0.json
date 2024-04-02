@@ -7,7 +7,7 @@
     "nodes": [
         {
             "name": "Mozilla Firefox",
-            "percent": 0.5,
+            "percent": 0.7,
             "type": "con",
             "swallows": [
                 {

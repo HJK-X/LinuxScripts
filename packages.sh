@@ -5,7 +5,9 @@ pacman -Syu
 
 #WM:
 pacman -S --needed xorg xorg-xinit xdg-utils xautolock xclip \
-	i3 dmenu perl-anyevent-i3 perl-json-xs alacritty feh 
+	i3 dmenu perl-anyevent-i3 perl-json-xs alacritty feh \
+    ttf-font-awesome bdf-unifont
+    
 
 #Dev Env:
 pacman -S --needed tmux neovim git github-cli fzf
@@ -20,7 +22,7 @@ pacman -S lua-language-server
 pacman -S --needed firefox torbrowser-launcher openvpn
 
 #Programs:
-pacman -S --needed htop less arandr lsof libnotify unzip maim signal-desktop rpi-imager krita
+pacman -S --needed htop less arandr lsof libnotify unzip maim signal-desktop rpi-imager krita maim bitwarden libreoffice-fresh
 
 #Sec Programs:
 pacman -S --needed nmap termshark 
