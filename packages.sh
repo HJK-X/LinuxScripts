@@ -10,7 +10,7 @@ pacman -S --needed xorg xorg-xinit xdg-utils xautolock xclip \
     
 
 #Dev Env:
-pacman -S --needed tmux neovim git github-cli fzf
+pacman -S --needed tmux neovim git github-cli 
 
 #Code:
 pacman -S --needed nodejs npm gdb jre-openjdk

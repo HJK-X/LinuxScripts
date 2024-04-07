@@ -17,14 +17,6 @@ while IFS= read -r line; do
     find ./tmp -type f -exec sed -i "s/$var_name/$color/g" {} +
 done < "$colors_conf"
 
-# Define the source directory and the files you want to copy
-files_arkenfox="arkenfox/*"
-destination_folder=$(find ~/.mozilla/firefox -type d -name "*.default-release" -print -quit)
-if [ -n "$destination_folder" ]; then
-    cp -av $files_arkenfox "$destination_folder/"
-fi
-
-
 # Copy folders to home dir
 cp -av ./tmp ~
 rm -r ./tmp
