@@ -18,5 +18,5 @@ while IFS= read -r line; do
 done < "$colors_conf"
 
 # Copy folders to home dir
-cp -av ./tmp ~
+cp -av ./tmp/. ~
 rm -r ./tmp
