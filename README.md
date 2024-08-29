@@ -26,7 +26,6 @@ WiFi connection with iwd:
 
 basicsetup.sh: custom configs for important packages  
 
-  
 
 
 cs.sh: cheat sheet for keyboard shortcuts
