@@ -1,0 +1,29 @@
+--vim.keymap.del('o', '%') --nil
+--vim.keymap.del('o', ',') --nil
+--vim.keymap.del('o', ';') --nil
+--vim.keymap.del('o', '<Plug>(MatchitOperationBackward)') --nil
+--vim.keymap.del('o', '<Plug>(MatchitOperationForward)') --nil
+--vim.keymap.del('o', '<Plug>(MatchitOperationMultiBackward)') --nil
+--vim.keymap.del('o', '<Plug>(MatchitOperationMultiForward)') --nil
+--vim.keymap.del('o', 'F') --nil
+--vim.keymap.del('o', 'N') --Prev Search Result
+--vim.keymap.del('o', 'R') --Treesitter Search
+--vim.keymap.del('o', 'S') --Flash Treesitter
+--vim.keymap.del('o', 'T') --nil
+--vim.keymap.del('o', '[%') --nil
+--vim.keymap.del('o', ']%') --nil
+--vim.keymap.del('o', 'a') --Around textobject
+--vim.keymap.del('o', 'al') --Around last textobject
+--vim.keymap.del('o', 'an') --Around next textobject
+--vim.keymap.del('o', 'f') --nil
+--vim.keymap.del('o', 'g%') --nil
+--vim.keymap.del('o', 'g[') --Move to left "around"
+--vim.keymap.del('o', 'g]') --Move to right "around"
+--vim.keymap.del('o', 'gc') --Comment textobject
+--vim.keymap.del('o', 'i') --Inside textobject
+--vim.keymap.del('o', 'il') --Inside last textobject
+--vim.keymap.del('o', 'in') --Inside next textobject
+--vim.keymap.del('o', 'n') --Next Search Result
+--vim.keymap.del('o', 'r') --Remote Flash
+--vim.keymap.del('o', 's') --Flash
+--vim.keymap.del('o', 't') --nil

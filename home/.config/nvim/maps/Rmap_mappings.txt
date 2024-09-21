@@ -1,0 +1,235 @@
+vim.keymap.del('R', '<leader> ') --Find Files (Root Dir)
+vim.keymap.del('R', '<leader>,') --Switch Buffer
+vim.keymap.del('R', '<leader>/') --Grep (Root Dir)
+vim.keymap.del('R', '<leader>1') --Harpoon to File 1
+vim.keymap.del('R', '<leader>2') --Harpoon to File 2
+vim.keymap.del('R', '<leader>3') --Harpoon to File 3
+vim.keymap.del('R', '<leader>4') --Harpoon to File 4
+vim.keymap.del('R', '<leader>5') --Harpoon to File 5
+vim.keymap.del('R', '<leader>:') --Command History
+vim.keymap.del('R', '<leader>?') --Buffer Keymaps (which-key)
+vim.keymap.del('R', '<leader>H') --Harpoon File
+vim.keymap.del('R', '<leader>K') --Keywordprg
+vim.keymap.del('R', '<leader>L') --LazyVim Changelog
+vim.keymap.del('R', '<leader>`') --Switch to Other Buffer
+vim.keymap.del('R', '<leader>bD') --Delete Buffer and Window
+vim.keymap.del('R', '<leader>bd') --Delete Buffer
+vim.keymap.del('R', '<leader>be') --Buffer Explorer
+vim.keymap.del('R', '<leader>bp') --Toggle Pin
+vim.keymap.del('R', '<leader>cF') --Format Injected Langs
+vim.keymap.del('R', '<leader>cF') --Format Injected Langs
+vim.keymap.del('R', '<leader>cS') --LSP references/definitions/... (Trouble)
+vim.keymap.del('R', '<leader>cd') --Line Diagnostics
+vim.keymap.del('R', '<leader>cf') --Format
+vim.keymap.del('R', '<leader>cf') --Format
+vim.keymap.del('R', '<leader>cm') --Mason
+vim.keymap.del('R', '<leader>cs') --Symbols (Trouble)
+vim.keymap.del('R', '<leader>e') --Explorer NeoTree (Root Dir)
+vim.keymap.del('R', '<leader>fF') --Find Files (cwd)
+vim.keymap.del('R', '<leader>fR') --Recent (cwd)
+vim.keymap.del('R', '<leader>fT') --Terminal (cwd)
+vim.keymap.del('R', '<leader>fb') --Buffers
+vim.keymap.del('R', '<leader>fc') --Find Config File
+vim.keymap.del('R', '<leader>fe') --Explorer NeoTree
+vim.keymap.del('R', '<leader>ff') --Find Files (Root Dir)
+vim.keymap.del('R', '<leader>fg') --Find Files (git-files)
+vim.keymap.del('R', '<leader>fr') --Recent
+vim.keymap.del('R', '<leader>ft') --Terminal (Root Dir)
+vim.keymap.del('R', '<leader>gB') --Git Browse
+vim.keymap.del('R', '<leader>gG') --GitUi (cwd)
+vim.keymap.del('R', '<leader>gb') --Git Blame Line
+vim.keymap.del('R', '<leader>gc') --Commits
+vim.keymap.del('R', '<leader>ge') --Git Explorer
+vim.keymap.del('R', '<leader>gg') --GitUi (Root Dir)
+vim.keymap.del('R', '<leader>gs') --Status
+vim.keymap.del('R', '<leader>h') --Harpoon Quick Menu
+vim.keymap.del('R', '<leader>qd') --Don't Save Current Session
+vim.keymap.del('R', '<leader>ql') --Restore Last Session
+vim.keymap.del('R', '<leader>qq') --Quit All
+vim.keymap.del('R', '<leader>qs') --Restore Session
+vim.keymap.del('R', '<leader>s"') --Registers
+vim.keymap.del('R', '<leader>sC') --Commands
+vim.keymap.del('R', '<leader>sD') --Workspace Diagnostics
+vim.keymap.del('R', '<leader>sG') --Grep (cwd)
+vim.keymap.del('R', '<leader>sH') --Search Highlight Groups
+vim.keymap.del('R', '<leader>sM') --Man Pages
+vim.keymap.del('R', '<leader>sR') --Resume
+vim.keymap.del('R', '<leader>sS') --Goto Symbol (Workspace)
+vim.keymap.del('R', '<leader>sT') --Todo/Fix/Fixme
+vim.keymap.del('R', '<leader>sW') --Word (cwd)
+vim.keymap.del('R', '<leader>sW') --Selection (cwd)
+vim.keymap.del('R', '<leader>sa') --Auto Commands
+vim.keymap.del('R', '<leader>sb') --Buffer
+vim.keymap.del('R', '<leader>sc') --Command History
+vim.keymap.del('R', '<leader>sd') --Document Diagnostics
+vim.keymap.del('R', '<leader>sg') --Grep (Root Dir)
+vim.keymap.del('R', '<leader>sh') --Help Pages
+vim.keymap.del('R', '<leader>sj') --Jumplist
+vim.keymap.del('R', '<leader>sk') --Key Maps
+vim.keymap.del('R', '<leader>sl') --Location List
+vim.keymap.del('R', '<leader>sm') --Jump to Mark
+vim.keymap.del('R', '<leader>so') --Options
+vim.keymap.del('R', '<leader>sq') --Quickfix List
+vim.keymap.del('R', '<leader>sr') --Search and Replace
+vim.keymap.del('R', '<leader>sr') --Search and Replace
+vim.keymap.del('R', '<leader>ss') --Goto Symbol
+vim.keymap.del('R', '<leader>st') --Todo
+vim.keymap.del('R', '<leader>sw') --Word (Root Dir)
+vim.keymap.del('R', '<leader>sw') --Selection (Root Dir)
+vim.keymap.del('R', '<leader>uC') --Colorscheme with Preview
+vim.keymap.del('R', '<leader>uF') --Toggle Auto Format (Buffer)
+vim.keymap.del('R', '<leader>uI') --Inspect Tree
+vim.keymap.del('R', '<leader>uT') --Toggle Treesitter Highlight
+vim.keymap.del('R', '<leader>ub') --Toggle Background
+vim.keymap.del('R', '<leader>uc') --Toggle conceallevel
+vim.keymap.del('R', '<leader>ud') --Toggle Diagnostics
+vim.keymap.del('R', '<leader>uf') --Toggle Auto Format (Global)
+vim.keymap.del('R', '<leader>ug') --Toggle Indention Guides
+vim.keymap.del('R', '<leader>uh') --Toggle Inlay Hints
+vim.keymap.del('R', '<leader>ui') --Inspect Pos
+vim.keymap.del('R', '<leader>un') --Dismiss All Notifications
+vim.keymap.del('R', '<leader>up') --Toggle Mini Pairs
+vim.keymap.del('R', '<leader>ur') --Redraw / Clear hlsearch / Diff Update
+vim.keymap.del('R', '<leader>us') --Toggle Spelling
+vim.keymap.del('R', '<leader>uw') --Toggle Wrap
+vim.keymap.del('R', '<leader>w') --Windows
+vim.keymap.del('R', '<leader>wd') --Delete Window
+vim.keymap.del('R', '<leader>xL') --Location List (Trouble)
+vim.keymap.del('R', '<leader>xQ') --Quickfix List (Trouble)
+vim.keymap.del('R', '<leader>xT') --Todo/Fix/Fixme (Trouble)
+vim.keymap.del('R', '<leader>xX') --Buffer Diagnostics (Trouble)
+vim.keymap.del('R', '<leader>xl') --Location List
+vim.keymap.del('R', '<leader>xq') --Quickfix List
+vim.keymap.del('R', '<leader>xt') --Todo (Trouble)
+vim.keymap.del('R', '<leader>xx') --Diagnostics (Trouble)
+vim.keymap.del('R', '<leader>|') --Split Window Right
+vim.keymap.del('R', '#') --:help v_#-default
+vim.keymap.del('R', '%') --nil
+vim.keymap.del('R', '%') --nil
+vim.keymap.del('R', '%') --nil
+vim.keymap.del('R', '&') --:help &-default
+vim.keymap.del('R', '*') --:help v_star-default
+vim.keymap.del('R', ',') --nil
+vim.keymap.del('R', ',') --nil
+vim.keymap.del('R', ',') --nil
+vim.keymap.del('R', ';') --nil
+vim.keymap.del('R', ';') --nil
+vim.keymap.del('R', ';') --nil
+vim.keymap.del('R', '<C-/>') --Terminal (Root Dir)
+vim.keymap.del('R', '<C-B>') --Scroll Backward
+vim.keymap.del('R', '<C-B>') --Scroll Backward
+vim.keymap.del('R', '<C-F>') --Scroll Forward
+vim.keymap.del('R', '<C-F>') --Scroll Forward
+vim.keymap.del('R', '<C-H>') --Go to Left Window
+vim.keymap.del('R', '<C-J>') --Go to Lower Window
+vim.keymap.del('R', '<C-K>') --Go to Upper Window
+vim.keymap.del('R', '<C-L>') --Go to Right Window
+vim.keymap.del('R', '<C-S>') --Save File
+vim.keymap.del('R', '<C-S>') --Save File
+vim.keymap.del('R', '<C-S>') --Save File
+vim.keymap.del('R', '<C-W><C-D>') --Show diagnostics under the cursor
+vim.keymap.del('R', '<C-W>d') --Show diagnostics under the cursor
+vim.keymap.del('R', '<Down>') --Down
+vim.keymap.del('R', '<Esc>') --Escape and Clear hlsearch
+vim.keymap.del('R', '<M-j>') --Move Down
+vim.keymap.del('R', '<M-k>') --Move Up
+vim.keymap.del('R', '<Plug>(MatchitNormalBackward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitNormalForward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitNormalMultiBackward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitNormalMultiForward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitOperationBackward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitOperationForward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitOperationMultiBackward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitOperationMultiForward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitVisualBackward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitVisualForward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitVisualMultiBackward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitVisualMultiForward)') --nil
+vim.keymap.del('R', '<Plug>(MatchitVisualTextObject)') --nil
+vim.keymap.del('R', '<Plug>PlenaryTestFile') --nil
+vim.keymap.del('R', '<S-Tab>') --nil
+vim.keymap.del('R', '<Tab>') --nil
+vim.keymap.del('R', '<Up>') --Up
+vim.keymap.del('R', '<lt>') --nil
+vim.keymap.del('R', '>') --nil
+vim.keymap.del('R', '@') --:help v_@-default
+vim.keymap.del('R', 'F') --nil
+vim.keymap.del('R', 'F') --nil
+vim.keymap.del('R', 'F') --nil
+vim.keymap.del('R', 'H') --Prev Buffer
+vim.keymap.del('R', 'L') --Next Buffer
+vim.keymap.del('R', 'N') --Prev Search Result
+vim.keymap.del('R', 'N') --Prev Search Result
+vim.keymap.del('R', 'N') --Prev Search Result
+vim.keymap.del('R', 'Q') --:help v_Q-default
+vim.keymap.del('R', 'R') --Treesitter Search
+vim.keymap.del('R', 'R') --Treesitter Search
+vim.keymap.del('R', 'S') --Flash Treesitter
+vim.keymap.del('R', 'S') --Flash Treesitter
+vim.keymap.del('R', 'S') --Flash Treesitter
+vim.keymap.del('R', 'T') --nil
+vim.keymap.del('R', 'T') --nil
+vim.keymap.del('R', 'T') --nil
+vim.keymap.del('R', 'Y') --:help Y-default
+vim.keymap.del('R', '[%') --nil
+vim.keymap.del('R', '[%') --nil
+vim.keymap.del('R', '[%') --nil
+vim.keymap.del('R', '[d') --Prev Diagnostic
+vim.keymap.del('R', '[e') --Prev Error
+vim.keymap.del('R', '[q') --Previous Trouble/Quickfix Item
+vim.keymap.del('R', '[t') --Previous Todo Comment
+vim.keymap.del('R', '[w') --Prev Warning
+vim.keymap.del('R', ']%') --nil
+vim.keymap.del('R', ']%') --nil
+vim.keymap.del('R', ']%') --nil
+vim.keymap.del('R', ']d') --Next Diagnostic
+vim.keymap.del('R', ']e') --Next Error
+vim.keymap.del('R', ']q') --Next Trouble/Quickfix Item
+vim.keymap.del('R', ']t') --Next Todo Comment
+vim.keymap.del('R', ']w') --Next Warning
+vim.keymap.del('R', 'a') --Around textobject
+vim.keymap.del('R', 'a') --Around textobject
+vim.keymap.del('R', 'a%') --nil
+vim.keymap.del('R', 'al') --Around last textobject
+vim.keymap.del('R', 'al') --Around last textobject
+vim.keymap.del('R', 'an') --Around next textobject
+vim.keymap.del('R', 'an') --Around next textobject
+vim.keymap.del('R', 'f') --nil
+vim.keymap.del('R', 'f') --nil
+vim.keymap.del('R', 'f') --nil
+vim.keymap.del('R', 'g%') --nil
+vim.keymap.del('R', 'g%') --nil
+vim.keymap.del('R', 'g%') --nil
+vim.keymap.del('R', 'g[') --Move to left "around"
+vim.keymap.del('R', 'g[') --Move to left "around"
+vim.keymap.del('R', 'g[') --Move to left "around"
+vim.keymap.del('R', 'g]') --Move to right "around"
+vim.keymap.del('R', 'g]') --Move to right "around"
+vim.keymap.del('R', 'g]') --Move to right "around"
+vim.keymap.del('R', 'gc') --Toggle comment
+vim.keymap.del('R', 'gc') --Toggle comment
+vim.keymap.del('R', 'gc') --Comment textobject
+vim.keymap.del('R', 'gcO') --Add Comment Above
+vim.keymap.del('R', 'gcc') --Toggle comment line
+vim.keymap.del('R', 'gco') --Add Comment Below
+vim.keymap.del('R', 'gx') --Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
+vim.keymap.del('R', 'i') --Inside textobject
+vim.keymap.del('R', 'i') --Inside textobject
+vim.keymap.del('R', 'il') --Inside last textobject
+vim.keymap.del('R', 'il') --Inside last textobject
+vim.keymap.del('R', 'in') --Inside next textobject
+vim.keymap.del('R', 'in') --Inside next textobject
+vim.keymap.del('R', 'j') --Down
+vim.keymap.del('R', 'j') --Down
+vim.keymap.del('R', 'k') --Up
+vim.keymap.del('R', 'k') --Up
+vim.keymap.del('R', 'n') --Next Search Result
+vim.keymap.del('R', 'n') --Next Search Result
+vim.keymap.del('R', 'n') --Next Search Result
+vim.keymap.del('R', 'r') --Remote Flash
+vim.keymap.del('R', 's') --Flash
+vim.keymap.del('R', 's') --Flash
+vim.keymap.del('R', 's') --Flash
+vim.keymap.del('R', 't') --nil
+vim.keymap.del('R', 't') --nil
+vim.keymap.del('R', 't') --nil

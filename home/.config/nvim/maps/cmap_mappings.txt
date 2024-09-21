@@ -1,0 +1,13 @@
+--vim.keymap.del('c', '"') --Closeopen action for '""' pair
+--vim.keymap.del('c', ''') --Closeopen action for "''" pair
+--vim.keymap.del('c', '(') --Open action for "()" pair
+--vim.keymap.del('c', ')') --Close action for "()" pair
+--vim.keymap.del('c', '<BS>') --MiniPairs <BS>
+--vim.keymap.del('c', '<C-S>') --Toggle Flash Search
+--vim.keymap.del('c', '<Plug>(TelescopeFuzzyCommandSearch)') --nil
+--vim.keymap.del('c', '<S-CR>') --Redirect Cmdline
+--vim.keymap.del('c', '[') --Open action for "[]" pair
+--vim.keymap.del('c', ']') --Close action for "[]" pair
+--vim.keymap.del('c', '`') --Closeopen action for "``" pair
+--vim.keymap.del('c', '{') --Open action for "{}" pair
+--vim.keymap.del('c', '}') --Close action for "{}" pair

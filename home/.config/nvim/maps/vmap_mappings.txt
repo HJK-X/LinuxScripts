@@ -1,0 +1,54 @@
+--vim.keymap.del('v', '<leader>cF') --Format Injected Langs
+--vim.keymap.del('v', '<leader>cf') --Format
+--vim.keymap.del('v', '<leader>sW') --Selection (cwd)
+--vim.keymap.del('v', '<leader>sr') --Search and Replace
+--vim.keymap.del('v', '<leader>sw') --Selection (Root Dir)
+--vim.keymap.del('v', '#') --:help v_#-default
+--vim.keymap.del('v', '%') --nil
+--vim.keymap.del('v', '*') --:help v_star-default
+--vim.keymap.del('v', ',') --nil
+--vim.keymap.del('v', ';') --nil
+--vim.keymap.del('v', '<C-B>') --Scroll Backward
+--vim.keymap.del('v', '<C-F>') --Scroll Forward
+--vim.keymap.del('v', '<C-S>') --Save File
+--vim.keymap.del('v', '<C-S>') --Save File
+--vim.keymap.del('v', '<Down>') --Down
+--vim.keymap.del('v', '<M-j>') --Move Down
+--vim.keymap.del('v', '<M-k>') --Move Up
+--vim.keymap.del('v', '<Plug>(MatchitVisualBackward)') --nil
+--vim.keymap.del('v', '<Plug>(MatchitVisualForward)') --nil
+--vim.keymap.del('v', '<Plug>(MatchitVisualMultiBackward)') --nil
+--vim.keymap.del('v', '<Plug>(MatchitVisualMultiForward)') --nil
+--vim.keymap.del('v', '<Plug>(MatchitVisualTextObject)') --nil
+--vim.keymap.del('v', '<S-Tab>') --nil
+--vim.keymap.del('v', '<Tab>') --nil
+--vim.keymap.del('v', '<Up>') --Up
+--vim.keymap.del('v', '<lt>') --nil
+--vim.keymap.del('v', '>') --nil
+--vim.keymap.del('v', '@') --:help v_@-default
+--vim.keymap.del('v', 'F') --nil
+--vim.keymap.del('v', 'N') --Prev Search Result
+--vim.keymap.del('v', 'Q') --:help v_Q-default
+--vim.keymap.del('v', 'R') --Treesitter Search
+--vim.keymap.del('v', 'S') --Flash Treesitter
+--vim.keymap.del('v', 'T') --nil
+--vim.keymap.del('v', '[%') --nil
+--vim.keymap.del('v', ']%') --nil
+--vim.keymap.del('v', 'a') --Around textobject
+--vim.keymap.del('v', 'a%') --nil
+--vim.keymap.del('v', 'al') --Around last textobject
+--vim.keymap.del('v', 'an') --Around next textobject
+--vim.keymap.del('v', 'f') --nil
+--vim.keymap.del('v', 'g%') --nil
+--vim.keymap.del('v', 'g[') --Move to left "around"
+--vim.keymap.del('v', 'g]') --Move to right "around"
+--vim.keymap.del('v', 'gc') --Toggle comment
+--vim.keymap.del('v', 'gx') --Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
+--vim.keymap.del('v', 'i') --Inside textobject
+--vim.keymap.del('v', 'il') --Inside last textobject
+--vim.keymap.del('v', 'in') --Inside next textobject
+--vim.keymap.del('v', 'j') --Down
+--vim.keymap.del('v', 'k') --Up
+--vim.keymap.del('v', 'n') --Next Search Result
+--vim.keymap.del('v', 's') --Flash
+--vim.keymap.del('v', 't') --nil

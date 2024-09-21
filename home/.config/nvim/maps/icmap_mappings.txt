@@ -1,0 +1,33 @@
+--vim.keymap.del('ic', '"') --Closeopen action for '""' pair
+--vim.keymap.del('ic', ''') --Closeopen action for "''" pair
+--vim.keymap.del('ic', '(') --Open action for "()" pair
+--vim.keymap.del('ic', ')') --Close action for "()" pair
+--vim.keymap.del('ic', ',') --nil
+--vim.keymap.del('ic', '.') --nil
+--vim.keymap.del('ic', ';') --nil
+--vim.keymap.del('ic', '<BS>') --MiniPairs <BS>
+--vim.keymap.del('ic', '<C-B>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<C-CR>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<C-E>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<C-F>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<C-N>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<C-P>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<C-S>') --Save File
+--vim.keymap.del('ic', '<C-Space>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<C-U>') --:help i_CTRL-U-default
+--vim.keymap.del('ic', '<C-W>') --:help i_CTRL-W-default
+--vim.keymap.del('ic', '<C-Y>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<CR>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<Down>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<Esc>') --Escape and Clear hlsearch
+--vim.keymap.del('ic', '<M-j>') --Move Down
+--vim.keymap.del('ic', '<M-k>') --Move Up
+--vim.keymap.del('ic', '<S-CR>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '<S-Tab>') --nil
+--vim.keymap.del('ic', '<Tab>') --nil
+--vim.keymap.del('ic', '<Up>') --cmp.utils.keymap.set_map
+--vim.keymap.del('ic', '[') --Open action for "[]" pair
+--vim.keymap.del('ic', ']') --Close action for "[]" pair
+--vim.keymap.del('ic', '`') --Closeopen action for "``" pair
+--vim.keymap.del('ic', '{') --Open action for "{}" pair
+--vim.keymap.del('ic', '}') --Close action for "{}" pair

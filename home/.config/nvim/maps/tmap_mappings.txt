@@ -1,0 +1,7 @@
+--vim.keymap.del('t', '<C-/>') --Hide Terminal
+--vim.keymap.del('t', '<C-H>') --Go to Left Window
+--vim.keymap.del('t', '<C-J>') --Go to Lower Window
+--vim.keymap.del('t', '<C-K>') --Go to Upper Window
+--vim.keymap.del('t', '<C-L>') --Go to Right Window
+--vim.keymap.del('t', '<C-_>') --which_key_ignore
+--vim.keymap.del('t', '<Esc><Esc>') --Enter Normal Mode

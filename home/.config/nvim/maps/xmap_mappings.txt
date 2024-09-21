@@ -1,0 +1,49 @@
+--vim.keymap.del('x', '<leader>cF') --Format Injected Langs
+--vim.keymap.del('x', '<leader>cf') --Format
+--vim.keymap.del('x', '<leader>sW') --Selection (cwd)
+--vim.keymap.del('x', '<leader>sr') --Search and Replace
+--vim.keymap.del('x', '<leader>sw') --Selection (Root Dir)
+--vim.keymap.del('x', '#') --:help v_#-default
+--vim.keymap.del('x', '%') --nil
+--vim.keymap.del('x', '*') --:help v_star-default
+--vim.keymap.del('x', ',') --nil
+--vim.keymap.del('x', ';') --nil
+--vim.keymap.del('x', '<C-S>') --Save File
+--vim.keymap.del('x', '<Down>') --Down
+--vim.keymap.del('x', '<M-j>') --Move Down
+--vim.keymap.del('x', '<M-k>') --Move Up
+--vim.keymap.del('x', '<Plug>(MatchitVisualBackward)') --nil
+--vim.keymap.del('x', '<Plug>(MatchitVisualForward)') --nil
+--vim.keymap.del('x', '<Plug>(MatchitVisualMultiBackward)') --nil
+--vim.keymap.del('x', '<Plug>(MatchitVisualMultiForward)') --nil
+--vim.keymap.del('x', '<Plug>(MatchitVisualTextObject)') --nil
+--vim.keymap.del('x', '<Up>') --Up
+--vim.keymap.del('x', '<lt>') --nil
+--vim.keymap.del('x', '>') --nil
+--vim.keymap.del('x', '@') --:help v_@-default
+--vim.keymap.del('x', 'F') --nil
+--vim.keymap.del('x', 'N') --Prev Search Result
+--vim.keymap.del('x', 'Q') --:help v_Q-default
+--vim.keymap.del('x', 'R') --Treesitter Search
+--vim.keymap.del('x', 'S') --Flash Treesitter
+--vim.keymap.del('x', 'T') --nil
+--vim.keymap.del('x', '[%') --nil
+--vim.keymap.del('x', ']%') --nil
+--vim.keymap.del('x', 'a') --Around textobject
+--vim.keymap.del('x', 'a%') --nil
+--vim.keymap.del('x', 'al') --Around last textobject
+--vim.keymap.del('x', 'an') --Around next textobject
+--vim.keymap.del('x', 'f') --nil
+--vim.keymap.del('x', 'g%') --nil
+--vim.keymap.del('x', 'g[') --Move to left "around"
+--vim.keymap.del('x', 'g]') --Move to right "around"
+--vim.keymap.del('x', 'gc') --Toggle comment
+--vim.keymap.del('x', 'gx') --Opens filepath or URI under cursor with the system handler (file explorer, web browser, …)
+--vim.keymap.del('x', 'i') --Inside textobject
+--vim.keymap.del('x', 'il') --Inside last textobject
+--vim.keymap.del('x', 'in') --Inside next textobject
+--vim.keymap.del('x', 'j') --Down
+--vim.keymap.del('x', 'k') --Up
+--vim.keymap.del('x', 'n') --Next Search Result
+--vim.keymap.del('x', 's') --Flash
+--vim.keymap.del('x', 't') --nil

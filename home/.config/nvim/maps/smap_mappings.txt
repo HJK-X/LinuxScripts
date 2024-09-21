@@ -1,0 +1,14 @@
+--vim.keymap.del('s', '<leader>cF') --Format Injected Langs
+--vim.keymap.del('s', '<leader>cf') --Format
+--vim.keymap.del('s', '<leader>sW') --Selection (cwd)
+--vim.keymap.del('s', '<leader>sr') --Search and Replace
+--vim.keymap.del('s', '<leader>sw') --Selection (Root Dir)
+--vim.keymap.del('s', '<C-B>') --Scroll Backward
+--vim.keymap.del('s', '<C-F>') --Scroll Forward
+--vim.keymap.del('s', '<C-S>') --Save File
+--vim.keymap.del('s', '<M-j>') --Move Down
+--vim.keymap.del('s', '<M-k>') --Move Up
+--vim.keymap.del('s', '<S-Tab>') --nil
+--vim.keymap.del('s', '<Tab>') --nil
+--vim.keymap.del('s', '<lt>') --nil
+--vim.keymap.del('s', '>') --nil
